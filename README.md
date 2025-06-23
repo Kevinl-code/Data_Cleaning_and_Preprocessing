@@ -41,6 +41,6 @@
    - The cleaned dataset was saved to a new CSV file named marketing_customers_cleaned.csv.
 
 # Author
-   Kevin Lazarus
-   First Year M.sc Data Science
-   Bishop Heber College, Trichy
+   #### Kevin Lazarus
+   #### First Year M.sc Data Science
+   #### Bishop Heber College, Trichy
