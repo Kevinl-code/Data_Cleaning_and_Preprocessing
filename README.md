@@ -1,7 +1,7 @@
-# Data Cleaning and Preprocessing
+#Task 1:  Data Cleaning and Preprocessing
   Cleaning and preprocessing marketing customer data
 
-## Marketing Customers Data Cleaning Task
+Task Domain: Marketing Customers Data Cleaning 
 
 ## 🔍 Objective
   Clean and preprocess the `marketing_customers.csv` dataset to ensure it is analysis-ready by handling missing values, fixing data types, standardizing text fields, and adding placeholder values for  testing.
