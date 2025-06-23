@@ -24,80 +24,23 @@
 - Pandas
 - NumPy
   
-## Marketing Customers Data Cleaning
+# Summary
+  ## Marketing Customers Data Cleaning
 
-This project performs data cleaning and preprocessing on the `marketing_customers.csv` dataset to prepare it for further analysis or modeling.
+  This project performs data cleaning and preprocessing on the `marketing_customers.csv` dataset to prepare it for further analysis or modeling.
+  ## - The input file used is marketing_customers.csv.
+  ## - The output file generated is marketing_customers_cleaned.csv.
+  ## - The dataset was loaded and inspected using pandas, with initial information and sample rows displayed.
+  ## - Synthetic columns were added, including date, name, gender, country name, and age, with logical or random values.
+  ## - Missing age values were handled by filling them with the median and converting the column to integers.
+  ## - Duplicate rows were removed from the dataset.
+  ## - Column names were renamed to lowercase with underscores for consistency.
+  ## - Date columns were standardized by converting them to proper datetime format.
+  ## - Data types were validated and fixed, particularly numeric fields like store_id (if present).
+  ## - Text fields were standardized, including gender values, country names, and proper formatting of names.
+  ## - The cleaned dataset was saved to a new CSV file named marketing_customers_cleaned.csv.
 
----
-
-## Input and Output
-
-```bash
-# Input File
-marketing_customers.csv
-
-# Output File
-marketing_customers_cleaned.csv
-## 1. Load and Inspect Dataset
-
-# Import libraries and load data
-import pandas as pd
-df = pd.read_csv("marketing_customers.csv")
-
-# Inspect structure
-df.info()
-df.head()
-## 2. Add Synthetic Columns
-
-# Add columns: DATE, name, gender, country_name, age
-# (Values generated logically/randomly)
-## 3. Handle Missing Values
-
-# Fill missing 'age' with median
-df['age'].fillna(df['age'].median(), inplace=True)
-
-# Convert 'age' to integer
-df['age'] = df['age'].astype(int)
-## 4. Remove Duplicates
-
-# Drop duplicate rows
-df.drop_duplicates(inplace=True)
-## 5. Rename Columns
-
-# Standardize column names to lowercase with underscores
-df.columns = [col.lower().replace(" ", "_") for col in df.columns]
-## 6. Date Standardization
-
-# Convert 'date' column to datetime format
-df['date'] = pd.to_datetime(df['date'])
-## 7. Data Type Fixes
-
-# Convert 'store_id' to numeric if exists
-df['store_id'] = pd.to_numeric(df.get('store_id'), errors='ignore')
-## 8. Text Standardization
-
-# Standardize 'gender' values
-df['gender'] = df['gender'].str.lower().replace({
-    'm': 'male', 'male': 'male', 'f': 'female', 'female': 'female'
-})
-
-# Standardize 'country_name' values
-country_map = {
-    'usa': 'United States',
-    'us': 'United States',
-    'uk': 'United Kingdom',
-    'united states': 'United States'
-}
-df['country_name'] = df['country_name'].str.lower().map(country_map).fillna(df['country_name'])
-
-# Format 'name' properly
-df['name'] = df['name'].str.title().str.strip()
-## 9. Save Cleaned Data
-
-# Export cleaned DataFrame to CSV
-df.to_csv("marketing_customers_cleaned.csv", index=False)
-```
 # Author
-Kevin Lazarus
-First Year M.sc Data Science
-Bishop Heber College, Trichy
+## Kevin Lazarus
+## First Year M.sc Data Science
+## Bishop Heber College, Trichy
