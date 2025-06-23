@@ -24,108 +24,80 @@
 - Pandas
 - NumPy
   
-# Summary
-# ============================================
-#   Marketing Customers Dataset - Cleaning Log
-# ============================================
+## Marketing Customers Data Cleaning
 
-# 📁 File Info:
-# Input  : marketing_customers.csv
-# Output : marketing_customers_cleaned.csv
+This project performs data cleaning and preprocessing on the `marketing_customers.csv` dataset to prepare it for further analysis or modeling.
 
-# --------------------------------------------
-# 1. Load & Inspect Dataset
-# --------------------------------------------
+---
 
-# Load the CSV
+## Input and Output
+
+```bash
+# Input File
+marketing_customers.csv
+
+# Output File
+marketing_customers_cleaned.csv
+## 1. Load and Inspect Dataset
+
+# Import libraries and load data
 import pandas as pd
 df = pd.read_csv("marketing_customers.csv")
 
-# Inspect basic structure
+# Inspect structure
 df.info()
 df.head()
+## 2. Add Synthetic Columns
 
-# --------------------------------------------
-# 2. Add Synthetic Columns
-# --------------------------------------------
+# Add columns: DATE, name, gender, country_name, age
+# (Values generated logically/randomly)
+## 3. Handle Missing Values
 
-# - DATE: Added sequential datetime values
-# - name, gender, country_name, age: filled with random/controlled values
-
-# --------------------------------------------
-# 3. Handle Missing Values
-# --------------------------------------------
-
-# Fill missing 'age' values with median
+# Fill missing 'age' with median
 df['age'].fillna(df['age'].median(), inplace=True)
 
-# Ensure 'age' column is numeric and integer type
-df['age'] = pd.to_numeric(df['age'], errors='coerce').fillna(df['age'].median()).astype(int)
+# Convert 'age' to integer
+df['age'] = df['age'].astype(int)
+## 4. Remove Duplicates
 
-# --------------------------------------------
-# 4. Remove Duplicate Rows
-# --------------------------------------------
-
+# Drop duplicate rows
 df.drop_duplicates(inplace=True)
+## 5. Rename Columns
 
-# --------------------------------------------
-# 5. Rename Columns
-# --------------------------------------------
+# Standardize column names to lowercase with underscores
+df.columns = [col.lower().replace(" ", "_") for col in df.columns]
+## 6. Date Standardization
 
-# Clean column names: lowercase, underscores
-df.columns = [col.lower().replace(' ', '_') for col in df.columns]
-
-# --------------------------------------------
-# 6. Standardize Date Format
-# --------------------------------------------
-
-# Convert 'date' column to datetime64
+# Convert 'date' column to datetime format
 df['date'] = pd.to_datetime(df['date'])
+## 7. Data Type Fixes
 
-# --------------------------------------------
-# 7. Fix Data Types
-# --------------------------------------------
+# Convert 'store_id' to numeric if exists
+df['store_id'] = pd.to_numeric(df.get('store_id'), errors='ignore')
+## 8. Text Standardization
 
-# Convert potential numeric fields (if present)
-# For example: store_id
-if 'store_id' in df.columns:
-    df['store_id'] = pd.to_numeric(df['store_id'], errors='coerce')
-
-# --------------------------------------------
-# 8. Standardize Text Columns
-# --------------------------------------------
-
-# Normalize gender values
+# Standardize 'gender' values
 df['gender'] = df['gender'].str.lower().replace({
-    'm': 'male', 'male': 'male',
-    'f': 'female', 'female': 'female'
+    'm': 'male', 'male': 'male', 'f': 'female', 'female': 'female'
 })
 
-# Normalize country_name values
+# Standardize 'country_name' values
 country_map = {
     'usa': 'United States',
     'us': 'United States',
     'uk': 'United Kingdom',
-    'united states': 'United States',
-    'united kingdom': 'United Kingdom'
+    'united states': 'United States'
 }
 df['country_name'] = df['country_name'].str.lower().map(country_map).fillna(df['country_name'])
 
-# Clean name field
+# Format 'name' properly
 df['name'] = df['name'].str.title().str.strip()
+## 9. Save Cleaned Data
 
-# --------------------------------------------
-# 9. Export Cleaned Data
-# --------------------------------------------
-
-# Save to cleaned CSV
+# Export cleaned DataFrame to CSV
 df.to_csv("marketing_customers_cleaned.csv", index=False)
-
-# --------------------------------------------
-# ✅ Done: Cleaned data ready for use.
-# --------------------------------------------
-
-# Author: Kevin Lazarus
-# First Year M.Sc. Data Science
-# Bishop Heber College, Trichy
-
+```
+# Author
+Kevin Lazarus
+First Year M.sc Data Science
+Bishop Heber College, Trichy
