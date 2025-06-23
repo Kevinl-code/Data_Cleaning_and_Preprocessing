@@ -53,7 +53,7 @@ Key actions performed:
 *First-Year M.Sc. Data Science Student*  
 *Bishop Heber College, Tiruchirappalli (Trichy), Tamil Nadu, India*
 
-This data cleaning project was completed as part of academic coursework and skill development in the field of Data Science. It demonstrates core competencies in data preprocessing, Python scripting, and data manipulation using libraries such as Pandas and NumPy.
+This data cleaning process task was completed as part of internship and skill development in the field of Data Science. It demonstrates core competencies in data preprocessing, Python scripting, and data manipulation using libraries such as Pandas and NumPy.
 
 🔗 *Connect & Learn More:*  
 📧 Email: [kevinlazarus2003@example.com]  
