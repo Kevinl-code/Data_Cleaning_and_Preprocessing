@@ -24,7 +24,7 @@
 - Pandas
 - NumPy
   
-# Summary
+# 🧾 Summary
   ## Marketing Customers Data Cleaning
 
   This project performs data cleaning and preprocessing on the `marketing_customers.csv` dataset to prepare it for further analysis or modeling.
@@ -40,7 +40,7 @@
    - Text fields were standardized, including gender values, country names, and proper formatting of names.
    - The cleaned dataset was saved to a new CSV file named marketing_customers_cleaned.csv.
 
-# Author
+# 🧠 Author
    #### Kevin Lazarus
    #### First Year M.sc Data Science
    #### Bishop Heber College, Trichy
