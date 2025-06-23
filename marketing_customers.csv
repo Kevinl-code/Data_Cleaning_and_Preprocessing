@@ -1,0 +1,206 @@
+Customer ID,Name,Gender,Country,Age,Signup Date,Email,Status
+CUST0172,Customer_172,F,USA,,2024-09-16,user172@example.com,Active
+CUST0055,Customer_55,M,,68.0,14/08/2023,user55@example.com,Active
+CUST0173,Customer_173,F,United States,53.0,05-26-2018,user173@example.com,Active
+CUST0033,Customer_33,male,,18.0,07-06-2022,user33@example.com,Active
+CUST0180,Customer_180,Male,IND,46.0,11/09/2017,user180@example.com,Active
+CUST0054,Customer_54,,U.S.,,2024-09-04,user54@example.com,Inactive
+CUST0107,Customer_107,female,India,49.0,08-08-2015,user107@example.com,Active
+CUST0108,Customer_108,Female,IND,,2020-01-16,user108@example.com,Inactive
+CUST0091,Customer_91,,United Kingdom,52.0,24/01/2025,user91@example.com,Inactive
+CUST0086,Customer_86,Male,USA,58.0,2015-11-10,user86@example.com,Active
+CUST0030,Customer_30,F,United Kingdom,42.0,2017-03-06,user30@example.com,Inactive
+CUST0044,Customer_44,M,USA,,03/11/2015,user44@example.com,Active
+CUST0136,Customer_136,female,U.S.,,06-20-2020,user136@example.com,Active
+CUST0082,Customer_82,Male,India,,15/06/2024,user82@example.com,Active
+CUST0073,Customer_73,male,India,,11-25-2016,user73@example.com,Active
+CUST0056,Customer_56,male,India,60.0,10-21-2018,user56@example.com,Active
+CUST0040,Customer_40,Female,India,,17/03/2020,user40@example.com,Inactive
+CUST0004,Customer_4,M,U.S.,69.0,2017-08-28,user4@example.com,Inactive
+CUST0164,Customer_164,Female,IND,,05/12/2015,user164@example.com,Inactive
+CUST0079,Customer_79,Female,U.S.,,2022-05-11,user79@example.com,Inactive
+CUST0137,Customer_137,F,IND,,18/01/2020,user137@example.com,Active
+CUST0009,Customer_9,Male,,35.0,15/07/2020,user9@example.com,Inactive
+CUST0049,Customer_49,Male,United States,,2016-06-18,user49@example.com,Inactive
+CUST0070,Customer_70,male,United Kingdom,66.0,11-29-2022,user70@example.com,Active
+CUST0061,Customer_61,F,United States,27.0,18/08/2017,user61@example.com,Inactive
+CUST0113,Customer_113,female,USA,47.0,04-28-2025,user113@example.com,Active
+CUST0088,Customer_88,M,United States,,12/09/2017,user88@example.com,Active
+CUST0065,Customer_65,Male,United Kingdom,58.0,2018-10-09,user65@example.com,Inactive
+CUST0134,Customer_134,M,IND,48.0,12-22-2018,user134@example.com,Inactive
+CUST0178,Customer_178,male,UK,,2017-08-01,user178@example.com,Inactive
+CUST0071,Customer_71,,UK,,02-07-2016,user71@example.com,Active
+CUST0195,Customer_195,F,UK,,15/11/2022,user195@example.com,Inactive
+CUST0078,Customer_78,female,United Kingdom,,04/03/2018,user78@example.com,Inactive
+CUST0135,Customer_135,Female,United Kingdom,54.0,2019-12-27,user135@example.com,Active
+CUST0014,Customer_14,male,India,,08-24-2024,user14@example.com,Active
+CUST0064,Customer_64,F,United Kingdom,,2020-07-26,user64@example.com,Active
+CUST0011,Customer_11,female,United States,42.0,24/08/2022,user11@example.com,Inactive
+CUST0133,Customer_133,female,India,33.0,02-17-2022,user133@example.com,Active
+CUST0015,Customer_15,F,USA,70.0,06-02-2018,user15@example.com,Inactive
+CUST0105,Customer_105,Female,,,2019-04-27,user105@example.com,Active
+CUST0000,Customer_0,female,U.S.,60.0,07-15-2017,user0@example.com,Inactive
+CUST0124,Customer_124,,United States,34.0,09/11/2023,user124@example.com,Active
+CUST0035,Customer_35,,India,,2022-10-15,user35@example.com,Inactive
+CUST0121,Customer_121,,United States,,26/10/2020,user121@example.com,Active
+CUST0012,Customer_12,male,UK,48.0,2024-03-13,user12@example.com,Inactive
+CUST0030,Customer_30,F,United Kingdom,42.0,2017-03-06,user30@example.com,Inactive
+CUST0072,Customer_72,M,United States,32.0,2018-11-23,user72@example.com,Inactive
+CUST0090,Customer_90,female,U.S.,,12-26-2020,user90@example.com,Inactive
+CUST0141,Customer_141,Female,USA,55.0,2021-11-13,user141@example.com,Active
+CUST0094,Customer_94,M,India,62.0,06/03/2024,user94@example.com,Active
+CUST0028,Customer_28,female,India,,02-06-2019,user28@example.com,Active
+CUST0168,Customer_168,female,India,,06-13-2018,user168@example.com,Active
+CUST0093,Customer_93,Female,,,25/08/2022,user93@example.com,Inactive
+CUST0042,Customer_42,F,USA,,03-31-2022,user42@example.com,Inactive
+CUST0148,Customer_148,M,UK,,02-23-2021,user148@example.com,Inactive
+CUST0116,Customer_116,Female,U.S.,,2020-04-20,user116@example.com,Active
+CUST0039,Customer_39,,USA,,09-30-2017,user39@example.com,Active
+CUST0087,Customer_87,F,USA,,12/10/2021,user87@example.com,Active
+CUST0025,Customer_25,Female,IND,,06/07/2020,user25@example.com,Inactive
+CUST0157,Customer_157,male,IND,,2017-05-17,user157@example.com,Active
+CUST0161,Customer_161,Male,United States,38.0,09-06-2021,user161@example.com,Active
+CUST0186,Customer_186,,United States,,10/07/2019,user186@example.com,Inactive
+CUST0077,Customer_77,Male,U.S.,,03-14-2020,user77@example.com,Inactive
+CUST0153,Customer_153,F,U.S.,,2021-10-03,user153@example.com,Inactive
+CUST0022,Customer_22,male,U.S.,,08-11-2016,user22@example.com,Active
+CUST0046,Customer_46,Female,United States,61.0,10/11/2022,user46@example.com,Inactive
+CUST0076,Customer_76,Male,,,2016-12-02,user76@example.com,Active
+CUST0131,Customer_131,Female,India,33.0,2022-06-25,user131@example.com,Inactive
+CUST0080,Customer_80,,IND,,30/11/2018,user80@example.com,Active
+CUST0140,Customer_140,F,United States,37.0,31/03/2021,user140@example.com,Inactive
+CUST0057,Customer_57,M,,,03-26-2016,user57@example.com,Active
+CUST0106,Customer_106,male,U.S.,44.0,01/04/2022,user106@example.com,Inactive
+CUST0024,Customer_24,male,U.S.,34.0,18/03/2021,user24@example.com,Inactive
+CUST0017,Customer_17,Male,United States,60.0,10-21-2023,user17@example.com,Inactive
+CUST0120,Customer_120,,United States,38.0,26/07/2017,user120@example.com,Inactive
+CUST0118,Customer_118,M,United States,29.0,11-21-2019,user118@example.com,Active
+CUST0031,Customer_31,Female,UK,34.0,2016-12-03,user31@example.com,Active
+CUST0062,Customer_62,male,United Kingdom,20.0,06-04-2022,user62@example.com,Active
+CUST0155,Customer_155,Female,IND,63.0,05-11-2024,user155@example.com,Inactive
+CUST0015,Customer_15,F,USA,70.0,06-02-2018,user15@example.com,Inactive
+CUST0084,Customer_84,Female,,,27/09/2021,user84@example.com,Inactive
+CUST0190,Customer_190,M,U.S.,25.0,08-04-2024,user190@example.com,Inactive
+CUST0149,Customer_149,female,United States,,08-04-2016,user149@example.com,Active
+CUST0005,Customer_5,Female,UK,44.0,29/04/2018,user5@example.com,Inactive
+CUST0045,Customer_45,Female,India,,09-05-2024,user45@example.com,Active
+CUST0100,Customer_100,female,United Kingdom,,31/08/2019,user100@example.com,Active
+CUST0043,Customer_43,M,United States,53.0,04-22-2022,user43@example.com,Active
+CUST0194,Customer_194,Female,IND,,2018-12-09,user194@example.com,Inactive
+CUST0048,Customer_48,M,UK,43.0,11-12-2018,user48@example.com,Active
+CUST0102,Customer_102,Male,,,19/06/2018,user102@example.com,Active
+CUST0034,Customer_34,M,United States,,2024-07-26,user34@example.com,Inactive
+CUST0003,Customer_3,female,India,33.0,10/04/2019,user3@example.com,Inactive
+CUST0018,Customer_18,Male,United States,,2022-01-26,user18@example.com,Inactive
+CUST0117,Customer_117,female,USA,,2018-03-19,user117@example.com,Active
+CUST0060,Customer_60,female,United States,32.0,03/10/2017,user60@example.com,Active
+CUST0189,Customer_189,female,UK,34.0,2023-07-28,user189@example.com,Inactive
+CUST0099,Customer_99,female,USA,44.0,2024-11-13,user99@example.com,Inactive
+CUST0063,Customer_63,Male,UK,48.0,04/06/2019,user63@example.com,Inactive
+CUST0027,Customer_27,female,India,,01/09/2020,user27@example.com,Inactive
+CUST0184,Customer_184,female,USA,,10/04/2021,user184@example.com,Inactive
+CUST0110,Customer_110,F,USA,,2018-08-26,user110@example.com,Active
+CUST0126,Customer_126,,USA,65.0,10-12-2019,user126@example.com,Active
+CUST0187,Customer_187,M,U.S.,,02-17-2019,user187@example.com,Inactive
+CUST0104,Customer_104,female,United Kingdom,,13/03/2023,user104@example.com,Inactive
+CUST0026,Customer_26,female,United Kingdom,20.0,10-31-2015,user26@example.com,Active
+CUST0193,Customer_193,F,USA,30.0,11/10/2022,user193@example.com,Inactive
+CUST0192,Customer_192,M,U.S.,65.0,07-12-2018,user192@example.com,Inactive
+CUST0050,Customer_50,Male,India,,2020-09-16,user50@example.com,Inactive
+CUST0101,Customer_101,female,IND,42.0,30/06/2018,user101@example.com,Inactive
+CUST0191,Customer_191,Male,United Kingdom,38.0,18/09/2015,user191@example.com,Active
+CUST0029,Customer_29,male,IND,45.0,10-20-2024,user29@example.com,Active
+CUST0132,Customer_132,male,UK,19.0,04-22-2022,user132@example.com,Active
+CUST0021,Customer_21,male,U.S.,,09-05-2018,user21@example.com,Inactive
+CUST0085,Customer_85,,United States,,2017-12-18,user85@example.com,Inactive
+CUST0114,Customer_114,female,USA,57.0,2020-11-25,user114@example.com,Active
+CUST0058,Customer_58,,United Kingdom,23.0,29/03/2022,user58@example.com,Inactive
+CUST0075,Customer_75,female,India,,2019-01-06,user75@example.com,Active
+CUST0158,Customer_158,F,United States,,11-17-2020,user158@example.com,Inactive
+CUST0152,Customer_152,male,IND,,11-05-2019,user152@example.com,Inactive
+CUST0016,Customer_16,Male,India,32.0,2024-11-16,user16@example.com,Inactive
+CUST0066,Customer_66,male,,,03/07/2015,user66@example.com,Inactive
+CUST0198,Customer_198,female,India,41.0,2017-12-31,user198@example.com,Inactive
+CUST0007,Customer_7,Female,USA,,15/01/2019,user7@example.com,Inactive
+CUST0142,Customer_142,M,,,2017-08-28,user142@example.com,Inactive
+CUST0019,Customer_19,Female,,35.0,2022-09-11,user19@example.com,Active
+CUST0145,Customer_145,female,India,,27/12/2024,user145@example.com,Inactive
+CUST0020,Customer_20,Female,United States,,22/03/2019,user20@example.com,Inactive
+CUST0013,Customer_13,Male,IND,,25/12/2020,user13@example.com,Active
+CUST0032,Customer_32,F,,,2018-06-18,user32@example.com,Active
+CUST0196,Customer_196,Male,USA,24.0,29/04/2018,user196@example.com,Inactive
+CUST0162,Customer_162,,United States,,16/09/2017,user162@example.com,Inactive
+CUST0170,Customer_170,male,,,09-11-2015,user170@example.com,Inactive
+CUST0109,Customer_109,Female,India,49.0,02-25-2025,user109@example.com,Inactive
+CUST0169,Customer_169,F,IND,,12/07/2015,user169@example.com,Active
+CUST0181,Customer_181,female,U.S.,,2025-02-25,user181@example.com,Active
+CUST0174,Customer_174,male,United Kingdom,51.0,2022-04-03,user174@example.com,Inactive
+CUST0156,Customer_156,Female,USA,45.0,2020-05-09,user156@example.com,Active
+CUST0083,Customer_83,,United States,66.0,29/07/2021,user83@example.com,Active
+CUST0166,Customer_166,Female,India,39.0,11-04-2015,user166@example.com,Inactive
+CUST0154,Customer_154,M,,,04/09/2015,user154@example.com,Active
+CUST0074,Customer_74,Female,India,21.0,07/04/2016,user74@example.com,Inactive
+CUST0188,Customer_188,,USA,,2016-08-03,user188@example.com,Inactive
+CUST0119,Customer_119,,U.S.,,03-16-2022,user119@example.com,Active
+CUST0053,Customer_53,M,India,46.0,2022-07-01,user53@example.com,Active
+CUST0130,Customer_130,Male,IND,66.0,08-31-2021,user130@example.com,Active
+CUST0151,Customer_151,F,UK,,2025-01-23,user151@example.com,Inactive
+CUST0175,Customer_175,F,IND,23.0,2017-02-07,user175@example.com,Inactive
+CUST0095,Customer_95,M,United Kingdom,63.0,10-12-2015,user95@example.com,Inactive
+CUST0008,Customer_8,female,UK,69.0,19/03/2020,user8@example.com,Inactive
+CUST0036,Customer_36,,India,,2019-04-16,user36@example.com,Active
+CUST0139,Customer_139,female,UK,67.0,12-03-2016,user139@example.com,Active
+CUST0047,Customer_47,,USA,,08-23-2016,user47@example.com,Inactive
+CUST0165,Customer_165,female,IND,,12-02-2015,user165@example.com,Active
+CUST0001,Customer_1,Male,United States,,22/01/2024,user1@example.com,Active
+CUST0112,Customer_112,M,UK,64.0,12-29-2021,user112@example.com,Inactive
+CUST0059,Customer_59,Male,India,,31/01/2024,user59@example.com,Inactive
+CUST0111,Customer_111,F,USA,,2017-07-08,user111@example.com,Inactive
+CUST0176,Customer_176,male,USA,,2020-08-11,user176@example.com,Inactive
+CUST0185,Customer_185,male,United States,,2023-11-05,user185@example.com,Active
+CUST0006,Customer_6,Female,U.S.,,2024-04-29,user6@example.com,Inactive
+CUST0098,Customer_98,M,United Kingdom,,18/04/2020,user98@example.com,Inactive
+CUST0041,Customer_41,female,India,,2025-02-10,user41@example.com,Inactive
+CUST0158,Customer_158,F,United States,,11-17-2020,user158@example.com,Inactive
+CUST0150,Customer_150,male,India,,09/10/2023,user150@example.com,Active
+CUST0010,Customer_10,female,USA,68.0,2023-05-30,user10@example.com,Active
+CUST0128,Customer_128,F,United Kingdom,59.0,2015-10-15,user128@example.com,Inactive
+CUST0103,Customer_103,male,IND,48.0,2016-12-15,user103@example.com,Inactive
+CUST0081,Customer_81,M,,,11/05/2018,user81@example.com,Active
+CUST0038,Customer_38,,UK,,23/11/2020,user38@example.com,Active
+CUST0127,Customer_127,M,United States,40.0,2015-08-14,user127@example.com,Active
+CUST0167,Customer_167,,UK,,20/03/2021,user167@example.com,Inactive
+CUST0160,Customer_160,,IND,,18/03/2020,user160@example.com,Active
+CUST0051,Customer_51,F,IND,,2019-05-16,user51@example.com,Inactive
+CUST0095,Customer_95,M,United Kingdom,63.0,10-12-2015,user95@example.com,Inactive
+CUST0179,Customer_179,,U.S.,,2020-07-02,user179@example.com,Inactive
+CUST0177,Customer_177,M,USA,49.0,12-13-2016,user177@example.com,Inactive
+CUST0089,Customer_89,F,India,,03-31-2022,user89@example.com,Active
+CUST0128,Customer_128,F,United Kingdom,59.0,2015-10-15,user128@example.com,Inactive
+CUST0163,Customer_163,Male,U.S.,46.0,2018-03-11,user163@example.com,Inactive
+CUST0147,Customer_147,male,U.S.,68.0,27/07/2017,user147@example.com,Active
+CUST0002,Customer_2,Male,IND,57.0,2024-12-19,user2@example.com,Active
+CUST0092,Customer_92,M,,26.0,28/06/2024,user92@example.com,Inactive
+CUST0069,Customer_69,female,USA,59.0,2025-03-10,user69@example.com,Inactive
+CUST0123,Customer_123,Female,United Kingdom,,05-10-2020,user123@example.com,Active
+CUST0096,Customer_96,Female,USA,,2016-03-24,user96@example.com,Active
+CUST0143,Customer_143,Female,United States,43.0,24/01/2019,user143@example.com,Active
+CUST0138,Customer_138,F,,28.0,10-01-2021,user138@example.com,Active
+CUST0097,Customer_97,female,U.S.,,02-07-2018,user97@example.com,Inactive
+CUST0115,Customer_115,male,,43.0,2022-12-16,user115@example.com,Inactive
+CUST0068,Customer_68,,United States,33.0,16/09/2018,user68@example.com,Inactive
+CUST0023,Customer_23,Male,,19.0,12-12-2022,user23@example.com,Active
+CUST0037,Customer_37,Male,United States,60.0,2023-09-21,user37@example.com,Inactive
+CUST0144,Customer_144,Female,United States,22.0,10/11/2022,user144@example.com,Active
+CUST0122,Customer_122,Male,India,,2020-03-07,user122@example.com,Active
+CUST0183,Customer_183,Male,United Kingdom,62.0,10/03/2022,user183@example.com,Inactive
+CUST0182,Customer_182,female,,,2021-11-03,user182@example.com,Active
+CUST0067,Customer_67,M,USA,,29/03/2017,user67@example.com,Inactive
+CUST0199,Customer_199,M,India,37.0,15/06/2016,user199@example.com,Active
+CUST0197,Customer_197,female,UK,36.0,28/04/2020,user197@example.com,Active
+CUST0159,Customer_159,Male,U.S.,,2023-09-30,user159@example.com,Inactive
+CUST0171,Customer_171,Male,IND,,01-27-2025,user171@example.com,Active
+CUST0052,Customer_52,Male,,,2018-03-20,user52@example.com,Inactive
+CUST0129,Customer_129,M,UK,67.0,19/05/2022,user129@example.com,Active
+CUST0125,Customer_125,Male,India,48.0,05-05-2023,user125@example.com,Active
+CUST0146,Customer_146,male,IND,61.0,15/02/2017,user146@example.com,Active
