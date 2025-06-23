@@ -28,17 +28,17 @@
   ## Marketing Customers Data Cleaning
 
   This project performs data cleaning and preprocessing on the `marketing_customers.csv` dataset to prepare it for further analysis or modeling.
-  ## - The input file used is marketing_customers.csv.
-  ## - The output file generated is marketing_customers_cleaned.csv.
-  ## - The dataset was loaded and inspected using pandas, with initial information and sample rows displayed.
-  ## - Synthetic columns were added, including date, name, gender, country name, and age, with logical or random values.
-  ## - Missing age values were handled by filling them with the median and converting the column to integers.
-  ## - Duplicate rows were removed from the dataset.
-  ## - Column names were renamed to lowercase with underscores for consistency.
-  ## - Date columns were standardized by converting them to proper datetime format.
-  ## - Data types were validated and fixed, particularly numeric fields like store_id (if present).
-  ## - Text fields were standardized, including gender values, country names, and proper formatting of names.
-  ## - The cleaned dataset was saved to a new CSV file named marketing_customers_cleaned.csv.
+   - The input file used is marketing_customers.csv.
+   - The output file generated is marketing_customers_cleaned.csv.
+   - The dataset was loaded and inspected using pandas, with initial information and sample rows displayed.
+   - Synthetic columns were added, including date, name, gender, country name, and age, with logical or random values.
+   - Missing age values were handled by filling them with the median and converting the column to integers.
+   - Duplicate rows were removed from the dataset.
+   - Column names were renamed to lowercase with underscores for consistency.
+   - Date columns were standardized by converting them to proper datetime format.
+   - Data types were validated and fixed, particularly numeric fields like store_id (if present).
+   - Text fields were standardized, including gender values, country names, and proper formatting of names.
+   - The cleaned dataset was saved to a new CSV file named marketing_customers_cleaned.csv.
 
 # Author
 ## Kevin Lazarus
