@@ -1,4 +1,4 @@
-# Task 1:   Data Cleaning and Preprocessing
+# Data Cleaning and Preprocessing
   Cleaning and preprocessing marketing customer data
 
 ## 🔍 Objective
