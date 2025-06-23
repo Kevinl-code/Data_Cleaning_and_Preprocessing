@@ -1,12 +1,12 @@
-## Data_Cleaning_and_Preprocessing
-Cleaning and preprocessing marketing customer data
+# Data Cleaning and Preprocessing
+  Cleaning and preprocessing marketing customer data
 
-# Marketing Customers Data Cleaning Task
+## Marketing Customers Data Cleaning Task
 
-# 🔍 Objective
-Clean and preprocess the `marketing_customers.csv` dataset to ensure it is analysis-ready by handling missing values, fixing data types, standardizing text fields, and adding placeholder values for testing.
+## 🔍 Objective
+  Clean and preprocess the `marketing_customers.csv` dataset to ensure it is analysis-ready by handling missing values, fixing data types, standardizing text fields, and adding placeholder values for  testing.
 
-## ✅ Key Steps
+# ✅ Key Steps
 - Handled missing values in `gender`, `country`, and `age`.
 - Added placeholder fields: `date`, `name`, `gender`, `country_name`, `age`.
 - Removed duplicates.
@@ -15,18 +15,18 @@ Clean and preprocess the `marketing_customers.csv` dataset to ensure it is analy
 - Ensured `age` column is integer type.
 - Exported cleaned dataset.
 
-## 📁 Files Included
+# 📁 Files Included
 - `marketing_customers.csv` – Raw input file.
 - `task1.py` – Full Python cleaning script.
 - `marketing_customers_cleaned.csv` – Final cleaned output.
 - `README.md` – This file.
 
-## 🛠 Tools Used
+# 🛠 Tools Used
 - Python 3.12
 - Pandas
 - NumPy
   
-## Summary
+# Summary
 # ============================================
 #   Marketing Customers Dataset - Cleaning Log
 # ============================================
