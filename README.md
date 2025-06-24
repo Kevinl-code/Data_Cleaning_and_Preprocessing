@@ -48,6 +48,9 @@ Key actions performed:
 - Saved the final cleaned dataset to `marketing_customers_cleaned.csv`.
 
 ## 🧠 Author
+<p>
+  <img src="./kevin.jpg" width="100" height="100">          
+</p>    
 
 **Kevin Lazarus**  
 *First-Year M.Sc. Data Science Student*  
@@ -56,5 +59,5 @@ Key actions performed:
 This data cleaning process task was completed as part of internship and skill development in the field of Data Science. It demonstrates core competencies in data preprocessing, Python scripting, and data manipulation using libraries such as Pandas and NumPy.
 
 🔗 *Connect & Learn More:*  
-📧 Email: [kevinlazarus2003@example.com]  
-🐙 GitHub: [github.com/kevinl-code](https://github.com/kevinl-code) 
+📧 Email: kevinlazarus2003@example.com  
+🐙 LinkedIn: https://www.linkedin.com/in/kevinlazarusb 
